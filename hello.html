@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdullah Fahad Iddosari - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.1rem;
+        }
+
+        .section-home {
+            background: #2c3e50;
+            color: white;
+            padding: 60px 0;
+        }
+
+        .section-about {
+            background: #ecf0f1;
+            padding: 60px 0;
+        }
+
+        .section-skills {
+            background: #bdc3c7;
+            padding: 60px 0;
+        }
+
+        .section-contact {
+            background: #2c3e50;
+            color: white;
+            padding: 60px 0;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        form input, form textarea {
+            width: 50%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        form button {
+            padding: 10px 20px;
+            background: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section-home">
+        <div class="container">
+            <h1>Hello, I'm Abdullah Fahad Iddosari</h1>
+            <p>A passionate Computer Scientist with a love for coding and solving complex problems.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section-about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                I'm Abdullah Fahad Iddosari, a recent Computer Science graduate with a deep passion for technology. 
+                I've worked on several projects related to artificial intelligence, web development, and data analysis.
+                In my free time, I enjoy reading up on the latest tech trends and exploring new programming languages.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section-skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>Programming Languages: C++, Python, Java</li>
+                <li>Web Development: HTML, CSS, Bootstrap</li>
+                <li>Database Management: SQL, MongoDB</li>
+                <li>AI & Machine Learning: TensorFlow, Scikit-learn</li>
+                <li>Version Control: Git, GitHub</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section-contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Abdullah Fahad Iddosari. All rights reserved.</p>
+    </footer>
+</body>
+</html>
